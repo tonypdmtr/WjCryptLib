@@ -8,7 +8,7 @@ case all four files are needed.
 
 The functions are designed to be portable and have been tested on both
 a Little-Endian and a Big-Endian architecture. OpenMP is supported where
-parallelisation can occur. 
+parallelisation can occur.
 
 The library and the demo programs can be built using CMake to generate
 a build setup for any system, including Visual Studio on Windows and
@@ -34,7 +34,6 @@ depending on what cryptographic functions are wanted.
   and WjCryptLib_Aes.c)
 * AES-CBC - (WjCryptLib_AesCbc.h, and WjCryptLib_AesCbc.c, WjCryptLib_Aes.h,
   and WjCryptLib_Aes.c)
-
 
 Version 2.3.0 - March 2018
 --------------------------
@@ -143,4 +142,3 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
-

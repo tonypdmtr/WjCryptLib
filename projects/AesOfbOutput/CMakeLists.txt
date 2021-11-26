@@ -4,4 +4,3 @@ target_link_libraries( AesOfbOutput
     WjCryptLib )
 
 install(TARGETS AesOfbOutput DESTINATION .)
-

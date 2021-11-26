@@ -25,7 +25,6 @@ add_library( WjCryptLib STATIC
 target_include_directories( WjCryptLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/lib )
 set_target_properties ( WjCryptLib PROPERTIES FOLDER lib )
 
-
 # Add the demo project directories
 add_subdirectory( projects/WjCryptLibTest )
 add_subdirectory( projects/Md5String )
